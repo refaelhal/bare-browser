@@ -6,6 +6,12 @@ A small, quiet browser for Windows. Your tabs, the search box and your bookmarks
 
 **[Download Bare for Windows](https://github.com/refaelhal/bare-browser/releases/latest/download/Bare-Setup.exe)**
 
+**Or let Claude Code set it all up.** Paste this into Claude Code on your PC. It walks you through installing Bare, moving everything over from Chrome, signing in to Google, checking that it all works, and then safely removing your other browsers. You click every confirmation yourself.
+
+```
+Read https://raw.githubusercontent.com/refaelhal/bare-browser/main/SETUP.md and walk me through setting up Bare, one step at a time.
+```
+
 Windows 10 or 11. Intel, AMD and ARM PCs all work, and the download is about 240 MB.
 
 You only install it once. After that, Bare keeps itself up to date: each new version downloads in the background while you browse and goes in the next time you close the app.
@@ -16,7 +22,7 @@ You only install it once. After that, Bare keeps itself up to date: each new ver
 2. Windows may say "Windows protected your PC". That's only because the installer isn't signed yet, so click More info, then Run anyway.
 3. Pick who it's for and where it goes. Click Install.
 
-The first time it opens, a short setup offers to bring over your bookmarks and history from Chrome, Edge, Firefox or another browser. Skip it if you like.
+The first time it opens, one button moves everything over from Chrome (or Edge, Firefox and others): bookmarks, history, open tabs and extensions, with passwords one click later. [SETUP.md](SETUP.md) has every step.
 
 You can remove it any time from Settings, under Apps and then Installed apps.
 
@@ -25,7 +31,7 @@ You can remove it any time from Settings, under Apps and then Installed apps.
 - Type in the search box and press Enter. A web address opens that site, and anything else jumps straight to Google's top result. Shift+Enter gives you the full results page.
 - Suggestions from your history, your bookmarks and Google show up as you type.
 - Ads and trackers are blocked from the start. On news sites that's a lot less to download: in our tests The Verge loaded in about half the time Chrome took.
-- Extensions install from the Chrome Web Store. Most work fine, though a few newer ones, like uBlock Origin Lite, don't yet.
+- Extensions install from the Chrome Web Store, including uBlock Origin Lite, AdGuard, 1Password and Bitwarden.
 - Save a page, or a whole set of tabs as a folder.
 - Drag the sidebar's edge to resize it. Ctrl+B folds it down to icons.
 - Tabs you aren't looking at hand back memory after half a minute, and ones you haven't opened in 30 minutes go to sleep. Click one and it comes back right where you left it.
